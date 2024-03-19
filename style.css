@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(who-wants-to-be-a-millionaire-powerpoint-template-in-who-wants-to-be-a-millionaire-powerpoint-template.jpg);
+}
+.conteiner{
+    margin-top: 100px;
+}
+.seviye{
+    margin-left: 500px;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 5px;
+    background-color:rgb(43, 43, 65) ;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.sayac{
+    width: 80vw;
+    height: 25px;
+    background: linear-gradient( to right, green,yellow,red);
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 110px;
+    position: relative;
+    z-index: 1;
+}
+.sayacic{
+    position: absolute;
+    width: 1vw;
+    height: 25px;
+    border-radius: 50px;
+    background-color:rgb(43, 43, 65) ;
+    animation-name: test;
+    animation-duration: 60s;
+
+}
+@keyframes test {
+   to{width: 80vw;}
+
+}
+.soru{
+    background-color: rgb(43, 43, 65);
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 35px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50px;
+
+}
+.soru h3 {
+    text-transform: capitalize;
+}
+.cevaplar{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-left: 100px;
+
+}
+.cevaplar button{
+    width: 420px;
+    height: 40px;
+    border-radius: 50px;
+    
+}
+
+button.a{
+    background-color: rgb(43, 43, 65) ;
+    color: white;
+}
+button.a:focus{
+    background-color: red;
+}
+button.b{
+    background-color: rgb(43, 43, 65) ;
+    color: white;
+}
+button.b:focus{
+    background-color: green;
+}
+
+button.c{
+    background-color: rgb(43, 43, 65) ;
+    color: white;
+}
+button.c:focus{
+    background-color: red;
+}
+
+button.d{
+    background-color: rgb(43, 43, 65) ;
+    color: white;
+}
+button.d:focus{
+    background-color: red;
+}
