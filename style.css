@@ -5,9 +5,11 @@
 body{
     background: url(who-wants-to-be-a-millionaire-powerpoint-template-in-who-wants-to-be-a-millionaire-powerpoint-template.jpg);
 }
+
 .conteiner{
     margin-top: 100px;
 }
+
 .seviye{
     margin-left: 500px;
     margin-top: 10px;
@@ -42,6 +44,8 @@ body{
    to{width: 80vw;}
 
 }
+
+
 .soru{
     background-color: rgb(43, 43, 65);
     color: white;
@@ -100,4 +104,25 @@ button.d{
 }
 button.d:focus{
     background-color: red;
+   
+    }
+    
+
+.popup{
+    margin-top: 50px;
+    margin-left: 180px;
+    opacity: 0;
+    visibility: hidden;
+}
+.popup h1{
+    background-color: red;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    justify-content: center;
+    width: 60vw;
+    height: 90px;
+   
+    
+   
 }
