@@ -108,21 +108,4 @@ button.d:focus{
     }
     
 
-.popup{
-    margin-top: 50px;
-    margin-left: 180px;
-    opacity: 0;
-    visibility: hidden;
-}
-.popup h1{
-    background-color: red;
-    color: white;
-    text-transform: capitalize;
-    text-align: center;
-    justify-content: center;
-    width: 60vw;
-    height: 90px;
-   
-    
-   
-}
+
